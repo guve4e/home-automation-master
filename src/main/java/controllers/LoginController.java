@@ -11,6 +11,5 @@ public class LoginController {
 
         this.loginView = loginView;
         this.userModel = userModel;
-
     }
 }

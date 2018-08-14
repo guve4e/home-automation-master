@@ -1,7 +1,5 @@
-package database;
+package lib.database;
 
-import lib.database.MySql;
-import lib.database.MySqlConnection;
 import com.mysql.jdbc.JDBC4Connection;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import lib.utility.Tuple;

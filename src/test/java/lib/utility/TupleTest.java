@@ -1,6 +1,5 @@
-package utility;
+package lib.utility;
 
-import lib.utility.Tuple;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -57,4 +57,10 @@ public class User {
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
+
+    public void foo(String[] s)
+    {
+        System.out.println(s[0]);
+        System.out.println(s[1]);
+    }
 }

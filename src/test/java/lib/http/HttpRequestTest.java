@@ -1,8 +1,5 @@
-package http;
+package lib.http;
 
-import lib.http.AHttpRequest;
-import lib.http.HttpRequest;
-import lib.http.IHttpRequest;
 import junit.framework.TestCase;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
@@ -69,7 +66,7 @@ public class HttpRequestTest {
 
         // Act
         HttpRequest request = new HttpRequest();
-        request.setUrl("http://webapi.ddns.net/index.php/mockcontroller/1001")
+        request.setUrl("lib.http://webapi.ddns.net/index.php/mockcontroller/1001")
                 .setContentType("application/json")
                 .setMethod("POST")
                 .addBody(objectToSend)
